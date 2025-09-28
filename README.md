@@ -1,16 +1,28 @@
-## Hi there 👋
+<h1 align='center'>👋 Hi, I'm 0xzhara</h1>
 
-<!--
-**0xzhara/0xzhara** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+<p align='center'>📊 Auto-updated personal GitHub dashboard</p>
 
-Here are some ideas to get you started:
+<p align='center'><i>Last updated: <b>2025-09-28 07:27:03 UTC</b></i></p>
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## 📈 My Stats
+- 👥 Followers: **12**
+- 🧑‍🤝‍🧑 Following: **8**
+- 📂 Public Repos: **25**
+- ⭐ Stars (all repos): **1**
+
+## 🚀 GitHub Analytics
+![](https://github-readme-stats.vercel.app/api?username=0xzhara&show_icons=true&theme=tokyonight&hide_border=true)
+
+![](https://github-readme-stats.vercel.app/api/top-langs/?username=0xzhara&layout=compact&theme=tokyonight&hide_border=true)
+
+## 🐍 Contribution Snake
+![snake gif](https://github.com/0xzhara/0xzhara/blob/output/github-contribution-grid-snake.svg)
+
+## 🌐 Connect with Me
+[![Website](https://img.shields.io/badge/🌍%20Website-0xzhara-blue?style=for-the-badge)](https://t.me/airdropnobi) [![Twitter](https://img.shields.io/badge/Twitter-0xzhara-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/0xzhara) [![Telegram](https://img.shields.io/badge/Telegram-Chat-blue?style=for-the-badge&logo=telegram)](https://t.me/airdropnobi) 
+
+## 👀 Profile Visitors
+![Visitor Count](https://komarev.com/ghpvc/?username=0xzhara&style=for-the-badge)
+
+---
+<p align='center'>⚡ Updated automatically by GitHub Actions</p>
