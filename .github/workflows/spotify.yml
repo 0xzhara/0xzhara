@@ -1,4 +1,5 @@
 name: Refresh Spotify
+
 on:
   schedule:
     - cron: "*/30 * * * *" # refresh tiap 30 menit
@@ -8,8 +9,29 @@ jobs:
   update-readme:
     runs-on: ubuntu-latest
     steps:
+      # 1️⃣ Checkout repo
       - uses: actions/checkout@v4
+
+      # 2️⃣ Setup Node (jika perlu untuk script Spotify)
       - uses: actions/setup-node@v3
         with:
           node-version: "16"
-      - run: echo "Spotify refresh job done"
+
+      # 3️⃣ Set Git config agar commit muncul di contribution graph
+      - name: Set Git Config
+        run: |
+          git config user.name "0xzhara"
+          git config user.email "122523974+0xzhara@users.noreply.github.com"
+
+      # 4️⃣ Jalankan script Spotify (contoh refresh README)
+      - name: Refresh Spotify Now Playing
+        run: |
+          # Tambahkan script update README Spotify di sini
+          echo "Spotify refresh job done"
+
+      # 5️⃣ Commit & Push atas nama 0xzhara
+      - name: Push changes
+        run: |
+          git add README.md
+          git commit -m "Update Spotify Now Playing [ci skip]" || echo "No changes to commit"
+          git push https://0xzhara:${{ secrets.GH_PAT }}@github.com/0xzhara/0xzhara.git
