@@ -1,7 +1,7 @@
 <h1 align="center">👋 Hi, I'm 0xzhara</h1>
 
 <p align="center">
-📊 Interactive GitHub Dashboard
+📊 Futuristic Interactive GitHub Dashboard
 </p>
 
 <p align="center"><i>Last updated: <b>{{LAST_UPDATED}}</b></i></p>
@@ -22,9 +22,9 @@
 
 ## 📌 Pinned Projects
 <div align="center">
-- [flowers](https://github.com/0xzhara/flowers) — TikTok FYP project  
-- [0xzhara](https://github.com/0xzhara/0xzhara) — Personal Dev Dashboard  
-- [Arweave-Academy](https://github.com/0xzhara/Arweave-Academy) — Arweave AO learning
+- [🌸 flowers](https://github.com/0xzhara/flowers) — TikTok FYP project  
+- [💻 0xzhara](https://github.com/0xzhara/0xzhara) — Personal Dev Dashboard  
+- [📚 Arweave-Academy](https://github.com/0xzhara/Arweave-Academy) — Arweave AO learning
 </div>
 
 ---
@@ -42,6 +42,24 @@
 <div align="center">
 <a href="https://open.spotify.com/user/your_spotify_id">
 <img src="https://spotify-github-profile.vercel.app/api/view?uid=your_spotify_id&cover_image=true&theme=novatorem&show_offline=true" alt="Spotify Now Playing"/>
+</a>
+</div>
+
+---
+
+## ⏳ Weekly Coding Activity (WakaTime)
+<div align="center">
+<a href="https://wakatime.com/@0xzhara">
+<img src="https://github-readme-stats.vercel.app/api/wakatime?username=0xzhara&layout=compact&theme=tokyonight&hide_border=true&show_icons=true" width="70%"/>
+</a>
+</div>
+
+---
+
+## 🏆 GitHub Trophies
+<div align="center">
+<a href="https://github.com/0xzhara">
+<img src="https://github-profile-trophy.vercel.app/?username=0xzhara&theme=tokyonight&no-frame=true&margin-w=5&margin-h=5" width="80%"/>
 </a>
 </div>
 
@@ -69,4 +87,4 @@
 
 ---
 
-<p align="center">⚡ Updated automatically via GitHub Actions</p>
+<p align="center">⚡ Fully interactive & updated automatically via GitHub Actions</p>
