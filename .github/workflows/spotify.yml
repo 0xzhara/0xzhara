@@ -1,1 +1,15 @@
+name: Refresh Spotify
+on:
+  schedule:
+    - cron: "*/30 * * * *" # refresh tiap 30 menit
+  workflow_dispatch:
 
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v3
+        with:
+          node-version: "16"
+      - run: echo "Spotify refresh job done"
