@@ -38,7 +38,7 @@
 ![Trophies](https://github-profile-trophy.vercel.app/?username=0xzhara&theme=tokyonight&no-frame=true&margin-w=5&margin-h=5)
 
 ## 🌐 Connect with Me
-[![Website](https://img.shields.io/badge/🌍%20Website-0xzhara-blue?style=for-the-badge)](https://t.me/airdropnobii) [![Twitter](https://img.shields.io/badge/Twitter-0xzhara-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/0xzhara) [![Telegram](https://img.shields.io/badge/Telegram-Chat-blue?style=for-the-badge&logo=telegram)](https://t.me/airdropnobi)
+[![Website](https://img.shields.io/badge/🌍%20Website-0xzhara-blue?style=for-the-badge)](https://t.me/airdropinobii) [![Twitter](https://img.shields.io/badge/Twitter-0xzhara-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/0xzhara) [![Telegram](https://img.shields.io/badge/Telegram-Chat-blue?style=for-the-badge&logo=telegram)](https://t.me/airdropnobi)
 
 ## 👀 Profile Visitors
 ![Visitor Count](https://komarev.com/ghpvc/?username=0xzhara&style=for-the-badge)
