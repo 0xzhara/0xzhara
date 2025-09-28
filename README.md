@@ -2,7 +2,7 @@
 
 <p align='center'>📊 Ultra secret pro interactive GitHub dashboard</p>
 
-<p align='center'><i>Last updated: <b>2025-09-28 08:04:02 UTC</b></i></p>
+<p align='center'><i>Last updated: <b>{{LAST_UPDATED}}</b></i></p>
 
 ---
 
@@ -36,19 +36,14 @@
 <a href="https://github.com/0xzhara">
 <img src="https://github.com/0xzhara/0xzhara/blob/output/github-contribution-grid-snake.svg" alt="Contribution Snake" usemap="#contributionmap"/>
 </a>
+{{CONTRIB_MAP}}
 </div>
-
-<map name="contributionmap">
-  <!-- Optional: Image map areas for tooltip hover per day (requires GitHub Actions to auto-generate coordinates) -->
-</map>
 
 ---
 
-## 🎧 Now Playing on Spotify (album cover mini & animated)
+## 🎧 Now Playing on Spotify
 <div align="center">
-<a href="https://open.spotify.com/user/">
-  <img src="https://novatorem-0xzhara.vercel.app/api/spotify?theme=gradient&animated=true&cover=true" alt="Spotify Now Playing" style="border-radius: 12px;"/>
-</a>
+{{SPOTIFY_NOW_PLAYING}}
 </div>
 
 ---
@@ -56,7 +51,7 @@
 ## ⏳ Weekly Coding Activity (WakaTime Animated)
 <div align="center">
 <a href="https://wakatime.com/@0xzhara">
-  <img src="https://github-readme-stats.vercel.app/api/wakatime?username=0xzhara&layout=compact&theme=tokyonight&hide_border=true&show_icons=true&animated=true" alt="WakaTime Stats" width="70%"/>
+<img src="https://github-readme-stats.vercel.app/api/wakatime?username=0xzhara&layout=compact&theme=tokyonight&hide_border=true&show_icons=true&animated=true" alt="WakaTime Stats" width="70%"/>
 </a>
 </div>
 
@@ -65,7 +60,7 @@
 ## 🏆 GitHub Trophies (Animated & Hover)
 <div align="center">
 <a href="https://github.com/0xzhara">
-  <img src="https://github-profile-trophy.vercel.app/?username=0xzhara&theme=tokyonight&no-frame=true&margin-w=5&margin-h=5&animated=true" alt="GitHub Trophies" width="80%"/>
+<img src="https://github-profile-trophy.vercel.app/?username=0xzhara&theme=tokyonight&no-frame=true&margin-w=5&margin-h=5&animated=true" alt="GitHub Trophies" width="80%"/>
 </a>
 </div>
 
@@ -74,13 +69,13 @@
 ## 🌐 Connect with Me (Animated Gradient Badges)
 <div align="center">
 <a href="https://t.me/airdropnobi">
-  <img src="https://img.shields.io/badge/Telegram-Chat-blue?style=for-the-badge&logo=telegram&logoColor=white&labelColor=2f3136&color=7289da&animated=true" alt="Telegram" />
+<img src="https://img.shields.io/badge/Telegram-Chat-blue?style=for-the-badge&logo=telegram&logoColor=white&labelColor=2f3136&color=7289da&animated=true" alt="Telegram" />
 </a>
 <a href="https://twitter.com/0xzhara">
-  <img src="https://img.shields.io/badge/Twitter-0xzhara-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white&labelColor=2f3136&color=1da1f2&animated=true" alt="Twitter" />
+<img src="https://img.shields.io/badge/Twitter-0xzhara-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white&labelColor=2f3136&color=1da1f2&animated=true" alt="Twitter" />
 </a>
 <a href="https://t.me/airdropnobi">
-  <img src="https://img.shields.io/badge/🌍 Website-0xzhara-blue?style=for-the-badge&labelColor=2f3136&color=0a66c2&animated=true" alt="Website" />
+<img src="https://img.shields.io/badge/🌍 Website-0xzhara-blue?style=for-the-badge&labelColor=2f3136&color=0a66c2&animated=true" alt="Website" />
 </a>
 </div>
 
