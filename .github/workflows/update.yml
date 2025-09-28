@@ -10,26 +10,37 @@ jobs:
   update:
     runs-on: ubuntu-latest
     steps:
+      # 1️⃣ Checkout repo
       - name: Checkout repo
         uses: actions/checkout@v4
 
+      # 2️⃣ Setup Python
       - name: Setup Python
         uses: actions/setup-python@v5
         with:
           python-version: "3.x"
 
+      # 3️⃣ Install dependencies
       - name: Install dependencies
         run: pip install requests
 
+      # 4️⃣ Run update script
       - name: Run update script
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: python update.py
 
-      - name: Commit & Push changes
+      # 5️⃣ Set Git config agar commit muncul di contribution graph
+      - name: Set Git Config
         run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git config user.name "0xzhara"
+          git config user.email "122523974+0xzhara@users.noreply.github.com"
+
+      # 6️⃣ Commit & Push changes menggunakan GH_PAT
+      - name: Commit & Push
+        env:
+          GH_PAT: ${{ secrets.GH_PAT }}
+        run: |
           git add README.md
-          git commit -m "chore: auto update profile dashboard [skip ci]" || echo "No changes to commit"
-          git push
+          git commit -m "chore: auto update profile dashboard [ci skip]" || echo "No changes to commit"
+          git push https://0xzhara:${GH_PAT}@github.com/0xzhara/0xzhara.git
