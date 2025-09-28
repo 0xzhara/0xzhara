@@ -1,7 +1,9 @@
-<h1 align="center">👋 Hi, I'm 0xzhara</h1>
+<h1 align="center">
+  <img src="https://img.shields.io/badge/👋%20Hi%2C%20I'm%200xzhara-🌈-gradient?style=for-the-badge&logo=github" alt="Gradient Header"/>
+</h1>
 
 <p align="center">
-📊 Futuristic Interactive GitHub Dashboard
+📊 Futuristic Interactive GitHub Dashboard (Stable & Safe)
 </p>
 
 <p align="center"><i>Last updated: <b>{{LAST_UPDATED}}</b></i></p>
