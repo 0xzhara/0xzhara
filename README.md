@@ -1,9 +1,9 @@
 <h1 align="center">
-  <img src="https://img.shields.io/badge/👋%20Hi%2C%20I'm%200xzhara-🌈-gradient?style=for-the-badge&logo=github" alt="Gradient Header"/>
+  <img src="https://img.shields.io/badge/👋%20Hi%2C%20I'm%200xzhara-🌈-gradient?style=for-the-badge&logo=github&logoColor=white" alt="Gradient Header"/>
 </h1>
 
 <p align="center">
-📊 Futuristic Interactive GitHub Dashboard (Stable & Safe)
+🚀 Ultra-Futuristic Interactive GitHub Dashboard (Live & Animated)
 </p>
 
 <p align="center"><i>Last updated: <b>{{LAST_UPDATED}}</b></i></p>
@@ -24,9 +24,9 @@
 
 ## 📌 Pinned Projects
 <div align="center">
-- [🌸 flowers](https://github.com/0xzhara/flowers) — TikTok FYP project  
-- [💻 0xzhara](https://github.com/0xzhara/0xzhara) — Personal Dev Dashboard  
-- [📚 Arweave-Academy](https://github.com/0xzhara/Arweave-Academy) — Arweave AO learning
+- [🌸 flowers](https://github.com/0xzhara/flowers) — ⭐ TikTok FYP  
+- [💻 0xzhara](https://github.com/0xzhara/0xzhara) — ⭐ Personal Dashboard  
+- [📚 Arweave-Academy](https://github.com/0xzhara/Arweave-Academy) — ⭐ Arweave Learning
 </div>
 
 ---
@@ -70,13 +70,13 @@
 ## 🌐 Connect with Me
 <div align="center">
 <a href="https://t.me/airdropnobi">
-<img src="https://img.shields.io/badge/Telegram-Chat-blue?style=for-the-badge&logo=telegram&logoColor=white" alt="Telegram"/>
+<img src="https://img.shields.io/badge/💬%20Telegram-Chat-blue?style=for-the-badge&logo=telegram&logoColor=white" alt="Telegram"/>
 </a>
 <a href="https://twitter.com/0xzhara">
-<img src="https://img.shields.io/badge/Twitter-0xzhara-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white" alt="Twitter"/>
+<img src="https://img.shields.io/badge/🐦%20Twitter-0xzhara-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white" alt="Twitter"/>
 </a>
 <a href="https://yourwebsite.com">
-<img src="https://img.shields.io/badge/Website-0xzhara-blue?style=for-the-badge" alt="Website"/>
+<img src="https://img.shields.io/badge/🌍%20Website-0xzhara-blue?style=for-the-badge" alt="Website"/>
 </a>
 </div>
 
