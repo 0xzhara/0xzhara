@@ -2,13 +2,13 @@
 
 <p align='center'>📊 Auto-updated personal GitHub dashboard</p>
 
-<p align='center'><i>Last updated: <b>2025-09-28 08:34:30 UTC</b></i></p>
+<p align='center'><i>Last updated: <b>2025-09-28 18:24:33 UTC</b></i></p>
 
 ## 📈 My Stats
 - 👥 Followers: **12**
 - 🧑‍🤝‍🧑 Following: **8**
-- 📂 Public Repos: **26**
-- ⭐ Stars (all repos): **1**
+- 📂 Public Repos: **25**
+- ⭐ Stars (all repos): **22**
 
 ## 🚀 GitHub Analytics
 ![](https://github-readme-stats.vercel.app/api?username=0xzhara&show_icons=true&theme=tokyonight&hide_border=true)
@@ -18,12 +18,12 @@
 ![](https://github-readme-streak-stats.herokuapp.com/?user=0xzhara&theme=tokyonight&hide_border=true)
 
 ## 📌 Pinned Projects
-- [flowers](https://github.com/0xzhara/flowers) ⭐ 1
-  - Flowers TikTok Fyp
-- [0xzhara](https://github.com/0xzhara/0xzhara) ⭐ 0
+- [0xzhara](https://github.com/0xzhara/0xzhara) ⭐ 1
   - No description
-- [Arweave-Academy](https://github.com/0xzhara/Arweave-Academy) ⭐ 0
+- [Arweave-Academy](https://github.com/0xzhara/Arweave-Academy) ⭐ 1
   - Your one-stop journey to mastering Arweave AO development, organized by ArweaveOasis.
+- [auto-contributions](https://github.com/0xzhara/auto-contributions) ⭐ 1
+  - No description
 
 ## 🐍 Contribution Snake
 ![snake gif](https://github.com/0xzhara/0xzhara/blob/output/github-contribution-grid-snake.svg)
@@ -38,7 +38,7 @@
 ![Trophies](https://github-profile-trophy.vercel.app/?username=0xzhara&theme=tokyonight&no-frame=true&margin-w=5&margin-h=5)
 
 ## 🌐 Connect with Me
-[![Website](https://img.shields.io/badge/🌍%20Website-0xzhara-blue?style=for-the-badge)](https://t.me/airdropinobii) [![Twitter](https://img.shields.io/badge/Twitter-0xzhara-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/0xzhara) [![Telegram](https://img.shields.io/badge/Telegram-Chat-blue?style=for-the-badge&logo=telegram)](https://t.me/airdropnobi)
+[![Website](https://img.shields.io/badge/🌍%20Website-0xzhara-blue?style=for-the-badge)](https://t.me/airdropnobi) [![Twitter](https://img.shields.io/badge/Twitter-0xzhara-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/0xzhara) [![Telegram](https://img.shields.io/badge/Telegram-Chat-blue?style=for-the-badge&logo=telegram)](https://t.me/airdropnobi)
 
 ## 👀 Profile Visitors
 ![Visitor Count](https://komarev.com/ghpvc/?username=0xzhara&style=for-the-badge)
