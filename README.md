@@ -2,13 +2,13 @@
 
 <p align='center'>📊 Auto-updated personal GitHub dashboard</p>
 
-<p align='center'><i>Last updated: <b>2025-09-29 18:29:12 UTC</b></i></p>
+<p align='center'><i>Last updated: <b>2025-09-30 06:35:00 UTC</b></i></p>
 
 ## 📈 My Stats
 - 👥 Followers: **12**
 - 🧑‍🤝‍🧑 Following: **8**
 - 📂 Public Repos: **26**
-- ⭐ Stars (all repos): **22**
+- ⭐ Stars (all repos): **21**
 
 ## 🚀 GitHub Analytics
 ![](https://github-readme-stats.vercel.app/api?username=0xzhara&show_icons=true&theme=tokyonight&hide_border=true)
