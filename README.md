@@ -2,13 +2,13 @@
 
 <p align='center'>📊 Auto-updated personal GitHub dashboard</p>
 
-<p align='center'><i>Last updated: <b>2025-09-30 18:26:41 UTC</b></i></p>
+<p align='center'><i>Last updated: <b>2025-10-01 06:34:37 UTC</b></i></p>
 
 ## 📈 My Stats
 - 👥 Followers: **12**
 - 🧑‍🤝‍🧑 Following: **8**
-- 📂 Public Repos: **28**
-- ⭐ Stars (all repos): **21**
+- 📂 Public Repos: **17**
+- ⭐ Stars (all repos): **12**
 
 ## 🚀 GitHub Analytics
 ![](https://github-readme-stats.vercel.app/api?username=0xzhara&show_icons=true&theme=tokyonight&hide_border=true)
@@ -20,9 +20,9 @@
 ## 📌 Pinned Projects
 - [0xzhara](https://github.com/0xzhara/0xzhara) ⭐ 1
   - No description
-- [Arweave-Academy](https://github.com/0xzhara/Arweave-Academy) ⭐ 1
-  - Your one-stop journey to mastering Arweave AO development, organized by ArweaveOasis.
 - [Auto-Crypto-Prices-](https://github.com/0xzhara/Auto-Crypto-Prices-) ⭐ 1
+  - No description
+- [bash-nobi.sh](https://github.com/0xzhara/bash-nobi.sh) ⭐ 1
   - No description
 
 ## 🐍 Contribution Snake
