@@ -2,10 +2,10 @@
 
 <p align='center'>📊 Auto-updated personal GitHub dashboard</p>
 
-<p align='center'><i>Last updated: <b>2026-02-24 07:06:57 UTC</b></i></p>
+<p align='center'><i>Last updated: <b>2026-02-24 19:03:58 UTC</b></i></p>
 
 ## 📈 My Stats
-- 👥 Followers: **13**
+- 👥 Followers: **12**
 - 🧑‍🤝‍🧑 Following: **9**
 - 📂 Public Repos: **14**
 - ⭐ Stars (all repos): **8**
