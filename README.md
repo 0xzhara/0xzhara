@@ -8,12 +8,14 @@
 
 <br/>
 
-<!-- INTRO BADGES -->
-<img src="https://img.shields.io/badge/⚡-Fun+Fact:...-7aa2f7?style=flat&labelColor=0d1117&color=7aa2f7" alt="fun-fact"/>
+<!-- ABOUT ME BADGES -->
+<img src="https://img.shields.io/badge/🧠-Fun+Fact:-7aa2f7?style=flat&labelColor=0d1117&color=7aa2f7" alt="fun-fact"/>
 <br/>
-<sub>🧠 I automate everything — from crypto tracking to GitHub dashboards</sub>
+<sub>🔥 I automate everything — from crypto tracking to GitHub dashboards</sub>
 <br/>
-<sub>🔥 Currently deep into Web3, DeFi protocols, and on-chain analytics</sub>
+<sub>⚡ Currently deep into Web3, DeFi protocols, and on-chain analytics</sub>
+<br/>
+<sub>🎯 Building tools that make crypto easier for everyone</sub>
 
 <br/><br/>
 
@@ -31,11 +33,23 @@
 
 ---
 
-## 🏆 GitHub Trophies
+## 🏆 GitHub Achievements
 
 <div align="center">
 
-<img src="https://github-profile-trophy.vercel.app/?username=0xzhara&theme=radical&no-frame=true&margin-w=8&margin-h=8&column=7" width="100%"/>
+<!-- ACHIEVEMENT BADGES -->
+<img src="https://img.shields.io/badge/🏆-Trophy_Winner-FFD700?style=for-the-badge&labelColor=0d1117" alt="trophy"/>
+<img src="https://img.shields.io/badge/⭐-Star_Earned-FF6B6B?style=for-the-badge&labelColor=0d1117" alt="star"/>
+<img src="https://img.shields.io/badge/🎯-Goal_Setter-4ECDC4?style=for-the-badge&labelColor=0d1117" alt="goal"/>
+<img src="https://img.shields.io/badge/🚀-Early_Adaopter-9B59B6?style=for-the-badge&labelColor=0d1117" alt="early"/>
+
+<br/>
+
+<!-- STATS SUMMARY -->
+<img src="https://img.shields.io/badge/Total_Commits-100+-7aa2f7?style=flat&labelColor=0d1117" alt="commits"/>
+<img src="https://img.shields.io/badge/Repos-14-7aa2f7?style=flat&labelColor=0d1117" alt="repos"/>
+<img src="https://img.shields.io/badge/Stars-8+-FFD700?style=flat&labelColor=0d1117" alt="stars"/>
+<img src="https://img.shields.io/badge/Followers-12+-FF6B6B?style=flat&labelColor=0d1117" alt="followers"/>
 
 </div>
 
@@ -158,8 +172,6 @@
 
 ![GitHub followers](https://img.shields.io/github/followers/0xzhara?style=social)
 ![GitHub stars](https://img.shields.io/github/stars/0xzhara?style=social)
-
-<img src="https://raw.githubusercontent.com/0xzhara/0xzhara/output/github-contribution-grid-snake-dark.svg" width="100%" alt="snake"/>
 
 <i>⚡ Updated automatically by GitHub Actions</i>
 
