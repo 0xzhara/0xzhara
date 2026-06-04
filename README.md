@@ -1,47 +1,119 @@
-<h1 align='center'>👋 Hi, I'm 0xzhara</h1>
+<div align="center">
 
-<p align='center'>📊 Auto-updated personal GitHub dashboard</p>
+<!-- HEADER -->
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:1a1b26,100:7aa2f7&height=180&section=header&text=0xzhara&fontSize=80&fontColor=7aa2f7&fontAlignY=35&desc=Web3%20%7C%20Crypto%20%7C%20Builder&descSize=18&descAlignY=55&animation=fadeIn"/>
 
-<p align='center'><i>Last updated: <b>2026-06-03 20:56:16 UTC</b></i></p>
+<!-- TYPING SVG -->
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&duration=3000&pause=1000&color=7AA2F7&center=true&vCenter=true&multiline=true&repeat=true&width=600&height=100&lines=Web3+Developer+%26+Crypto+Enthusiast;Open+Source+Contributor;Always+Building+%F0%9F%94%A8)](https://git.io/typing-svg)
 
-## 📈 My Stats
-- 👥 Followers: **12**
-- 🧑‍🤝‍🧑 Following: **9**
-- 📂 Public Repos: **14**
-- ⭐ Stars (all repos): **8**
+<br/>
 
-## 🚀 GitHub Analytics
-![](https://github-readme-stats.vercel.app/api?username=0xzhara&show_icons=true&theme=tokyonight&hide_border=true)
+<!-- STATS CARDS -->
+<img src="https://github-readme-stats.vercel.app/api?username=0xzhara&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=7aa2f7&icon_color=bb9af7&text_color=c0caf5&ring_color=7aa2f7&include_all_commits=true&count_private=true" height="170"/>
 
-![](https://github-readme-stats.vercel.app/api/top-langs/?username=0xzhara&layout=compact&theme=tokyonight&hide_border=true)
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=0xzhara&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=7aa2f7&text_color=c0caf5" height="170"/>
 
-![](https://github-readme-streak-stats.herokuapp.com/?user=0xzhara&theme=tokyonight&hide_border=true)
+<br/>
 
-## 📌 Pinned Projects
-- [0xzhara](https://github.com/0xzhara/0xzhara) ⭐ 1
-  - No description
-- [Auto-Crypto-Prices-](https://github.com/0xzhara/Auto-Crypto-Prices-) ⭐ 1
-  - No description
-- [bash-nobi.sh](https://github.com/0xzhara/bash-nobi.sh) ⭐ 1
-  - No description
+<!-- STREAK STATS -->
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=0xzhara&theme=tokyonight&hide_border=true&background=0d1117&ring=7aa2f7&fire=bb9af7&currStreakLabel=7aa2f7&sideLabels=c0caf5" width="70%"/>
 
-## 🐍 Contribution Snake
-![snake gif](https://github.com/0xzhara/0xzhara/blob/output/github-contribution-grid-snake.svg)
-
-## 🎧 Now Playing on Spotify
-![Spotify](https://novatorem-0xzhara.vercel.app/api/spotify)
-
-## ⏳ Weekly Coding Activity
-![WakaTime](https://github-readme-stats.vercel.app/api/wakatime?username=0xzhara&layout=compact&theme=tokyonight&hide_border=true)
-
-## 🏆 GitHub Trophies
-![Trophies](https://github-profile-trophy.vercel.app/?username=0xzhara&theme=tokyonight&no-frame=true&margin-w=5&margin-h=5)
-
-## 🌐 Connect with Me
-[![Website](https://img.shields.io/badge/🌍%20Website-0xzhara-blue?style=for-the-badge)](https://t.me/airdropnobi) [![Twitter](https://img.shields.io/badge/Twitter-0xzhara-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/0xzhara) [![Telegram](https://img.shields.io/badge/Telegram-Chat-blue?style=for-the-badge&logo=telegram)](https://t.me/airdropnobi)
-
-## 👀 Profile Visitors
-![Visitor Count](https://komarev.com/ghpvc/?username=0xzhara&style=for-the-badge)
+</div>
 
 ---
-<p align='center'>⚡ Updated automatically by GitHub Actions</p>
+
+## 🏆 GitHub Trophies
+
+<div align="center">
+
+<img src="https://github-profile-trophy.vercel.app/?username=0xzhara&theme=tokyonight&no-frame=true&margin-w=8&margin-h=8&column=7" width="100%"/>
+
+</div>
+
+---
+
+## 📊 Contribution Graph
+
+<div align="center">
+
+[![GitHub Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=0xzhara&bg_color=0d1117&color=7aa2f7&line=bb9af7&point=c0caf5&area=true&area_color=7aa2f7&hide_border=true)](https://github.com/ashutosh00710/github-readme-activity-graph)
+
+</div>
+
+---
+
+## 🐍 Contribution Snake
+
+<div align="center">
+
+![snake gif](https://raw.githubusercontent.com/0xzhara/0xzhara/output/github-contribution-grid-snake-dark.svg)
+
+</div>
+
+---
+
+## 🚀 Tech Stack
+
+<div align="center">
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
+![Solidity](https://img.shields.io/badge/Solidity-363636?style=for-the-badge&logo=solidity&logoColor=white)
+![Bash](https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnubash&logoColor=white)
+
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+
+![Ethereum](https://img.shields.io/badge/Ethereum-3C3C3D?style=for-the-badge&logo=ethereum&logoColor=white)
+![Web3](https://img.shields.io/badge/Web3-F16822?style=for-the-badge&logo=web3.js&logoColor=white)
+
+</div>
+
+---
+
+## 📌 Featured Projects
+
+<div align="center">
+
+| Project | Description | Stars |
+|---------|-------------|-------|
+| [🔥 Auto-Crypto-Prices](https://github.com/0xzhara/Auto-Crypto-Prices-) | Auto crypto price tracker | ⭐ |
+| [📜 bash-nobi.sh](https://github.com/0xzhara/bash-nobi.sh) | Bash automation scripts | ⭐ |
+
+</div>
+
+---
+
+## 🌐 Connect with Me
+
+<div align="center">
+
+[![Telegram](https://img.shields.io/badge/Telegram-26A5E4?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/airdropnobi)
+[![Twitter](https://img.shields.io/badge/Twitter-000000?style=for-the-badge&logo=x&logoColor=white)](https://twitter.com/0xzhara)
+[![Website](https://img.shields.io/badge/Website-0xzhara-blue?style=for-the-badge)](https://t.me/airdropnobi)
+
+</div>
+
+---
+
+## 👀 Profile Views
+
+<div align="center">
+
+![Visitor Count](https://komarev.com/ghpvc/?username=0xzhara&style=for-the-badge&color=7aa2f7&label=Profile+Views)
+
+</div>
+
+---
+
+<div align="center">
+
+![GitHub followers](https://img.shields.io/github/followers/0xzhara?style=social)
+![GitHub stars](https://img.shields.io/github/stars/0xzhara?style=social)
+
+<i>⚡ Updated automatically by GitHub Actions</i>
+
+</div>

@@ -1,9 +1,10 @@
 import requests
-import datetime
+import re
 import os
+import datetime
 
 USERNAME = "0xzhara"
-TOKEN = os.getenv("GITHUB_TOKEN")
+TOKEN = os.environ.get("GITHUB_TOKEN", "")
 
 headers = {}
 if TOKEN:
@@ -21,67 +22,69 @@ following = user_data.get("following", 0)
 public_repos = user_data.get("public_repos", 0)
 stars = sum(repo.get("stargazers_count", 0) for repo in repos_data)
 
-# Top 3 repos by stars
+# Top repos by stars
 top_repos = sorted(
     repos_data, key=lambda r: r.get("stargazers_count", 0), reverse=True
 )[:3]
 
 # Timestamp
-now = datetime.datetime.utcnow().strftime("%Y-%m-%d %H:%M:%S UTC")
+now = datetime.datetime.utcnow().strftime("%Y-%m-%d %H:%M UTC")
 
-# Generate README.md
-with open("README.md", "w") as f:
-    f.write(f"<h1 align='center'>👋 Hi, I'm {USERNAME}</h1>\n\n")
-    f.write("<p align='center'>📊 Auto-updated personal GitHub dashboard</p>\n\n")
-    f.write(f"<p align='center'><i>Last updated: <b>{now}</b></i></p>\n\n")
+# Read existing README
+readme_path = "README.md"
+with open(readme_path, "r") as f:
+    readme = f.read()
 
-    # Stats
-    f.write("## 📈 My Stats\n")
-    f.write(f"- 👥 Followers: **{followers}**\n")
-    f.write(f"- 🧑‍🤝‍🧑 Following: **{following}**\n")
-    f.write(f"- 📂 Public Repos: **{public_repos}**\n")
-    f.write(f"- ⭐ Stars (all repos): **{stars}**\n\n")
+# Update Featured Projects section
+projects_lines = []
+for repo in top_repos:
+    name = repo["name"]
+    desc = repo.get("description") or "No description"
+    stars_repo = repo.get("stargazers_count", 0)
+    url = repo["html_url"]
+    projects_lines.append(f"| [{name}]({url}) | {desc} | ⭐ {stars_repo} |")
 
-    # GitHub Analytics Cards
-    f.write("## 🚀 GitHub Analytics\n")
-    f.write(f"![](https://github-readme-stats.vercel.app/api?username={USERNAME}&show_icons=true&theme=tokyonight&hide_border=true)\n\n")
-    f.write(f"![](https://github-readme-stats.vercel.app/api/top-langs/?username={USERNAME}&layout=compact&theme=tokyonight&hide_border=true)\n\n")
-    f.write(f"![](https://github-readme-streak-stats.herokuapp.com/?user={USERNAME}&theme=tokyonight&hide_border=true)\n\n")
+projects_table = "\n".join(projects_lines)
 
-    # Pinned Projects
-    f.write("## 📌 Pinned Projects\n")
-    for repo in top_repos:
-        name = repo["name"]
-        desc = repo["description"] or "No description"
-        stars_repo = repo["stargazers_count"]
-        url = repo["html_url"]
-        f.write(f"- [{name}]({url}) ⭐ {stars_repo}\n  - {desc}\n")
-    f.write("\n")
+# Replace Featured Projects table rows
+projects_pattern = r"(\| Project \| Description \| Stars \|\n\|[-|]+\|\n)(.*?)(\n\n</div>)"
+if re.search(projects_pattern, readme, re.DOTALL):
+    readme = re.sub(
+        projects_pattern,
+        r"\1" + projects_table + r"\3",
+        readme,
+        flags=re.DOTALL,
+    )
 
-    # Contribution Snake
-    f.write("## 🐍 Contribution Snake\n")
-    f.write("![snake gif](https://github.com/0xzhara/0xzhara/blob/output/github-contribution-grid-snake.svg)\n\n")
+# Add/update dynamic stats comment block at the end
+stats_block = f"""<!-- DYNAMIC_STATS:DO_NOT_EDIT -->
+<div align="center">
 
-    # Spotify Now Playing
-    f.write("## 🎧 Now Playing on Spotify\n")
-    f.write("![Spotify](https://novatorem-0xzhara.vercel.app/api/spotify)\n\n")
+📊 **Followers:** {followers} &nbsp;|&nbsp; **Following:** {following} &nbsp;|&nbsp; **Repos:** {public_repos} &nbsp;|&nbsp; **Stars:** {stars}
 
-    # WakaTime Coding Activity
-    f.write("## ⏳ Weekly Coding Activity\n")
-    f.write("![WakaTime](https://github-readme-stats.vercel.app/api/wakatime?username=0xzhara&layout=compact&theme=tokyonight&hide_border=true)\n\n")
+<i>Last updated: {now}</i>
 
-    # GitHub Trophies
-    f.write("## 🏆 GitHub Trophies\n")
-    f.write("![Trophies](https://github-profile-trophy.vercel.app/?username=0xzhara&theme=tokyonight&no-frame=true&margin-w=5&margin-h=5)\n\n")
+</div>
+<!-- /DYNAMIC_STATS -->"""
 
-    # Social & Visitor Badges
-    f.write("## 🌐 Connect with Me\n")
-    f.write("[![Website](https://img.shields.io/badge/🌍%20Website-0xzhara-blue?style=for-the-badge)](https://t.me/airdropnobi) ")
-    f.write("[![Twitter](https://img.shields.io/badge/Twitter-0xzhara-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/0xzhara) ")
-    f.write("[![Telegram](https://img.shields.io/badge/Telegram-Chat-blue?style=for-the-badge&logo=telegram)](https://t.me/airdropnobi)\n\n")
+if "<!-- DYNAMIC_STATS:DO_NOT_EDIT -->" in readme:
+    readme = re.sub(
+        r"<!-- DYNAMIC_STATS:DO_NOT_EDIT -->.*?<!-- /DYNAMIC_STATS -->",
+        stats_block,
+        readme,
+        flags=re.DOTALL,
+    )
+else:
+    # Append before the final footer
+    if "<i>⚡ Updated automatically" in readme:
+        readme = readme.replace(
+            "<i>⚡ Updated automatically by GitHub Actions</i>",
+            stats_block + "\n\n<i>⚡ Updated automatically by GitHub Actions</i>",
+        )
+    else:
+        readme += "\n\n" + stats_block
 
-    f.write("## 👀 Profile Visitors\n")
-    f.write("![Visitor Count](https://komarev.com/ghpvc/?username=0xzhara&style=for-the-badge)\n\n")
+with open(readme_path, "w") as f:
+    f.write(readme)
 
-    f.write("---\n")
-    f.write("<p align='center'>⚡ Updated automatically by GitHub Actions</p>\n")
+print(f"✅ README updated — {followers} followers, {public_repos} repos, {stars} stars")
