@@ -115,6 +115,14 @@
 
 ---
 
+<div align="center">
+
+<img src="https://metrics.lecoq.io/0xzhara?template=classic&config.timezone=Asia%2FJakarta" width="100%" alt="GitHub Metrics"/>
+
+</div>
+
+---
+
 ## 👀 Profile Views
 
 <div align="center">
