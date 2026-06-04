@@ -35,28 +35,24 @@ readme_path = "README.md"
 with open(readme_path, "r") as f:
     readme = f.read()
 
-# Update Featured Projects section
-projects_lines = []
+# Update Featured Projects — replace pin cards
+project_cards = []
 for repo in top_repos:
     name = repo["name"]
-    desc = repo.get("description") or "No description"
-    stars_repo = repo.get("stargazers_count", 0)
     url = repo["html_url"]
-    projects_lines.append(f"| [{name}]({url}) | {desc} | ⭐ {stars_repo} |")
-
-projects_table = "\n".join(projects_lines)
-
-# Replace Featured Projects table rows
-projects_pattern = r"(\| Project \| Description \| Stars \|\n\|[-|]+\|\n)(.*?)(\n\n</div>)"
-if re.search(projects_pattern, readme, re.DOTALL):
-    readme = re.sub(
-        projects_pattern,
-        r"\1" + projects_table + r"\3",
-        readme,
-        flags=re.DOTALL,
+    project_cards.append(
+        f'<a href="{url}">\n'
+        f'  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username={USERNAME}&repo={name}&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=7aa2f7&icon_color=bb9af7&text_color=c0caf5" />\n'
+        f'</a>'
     )
+cards_html = "\n".join(project_cards)
 
-# Add/update dynamic stats comment block at the end
+# Replace between FEATURED PROJECTS markers
+projects_pattern = r"(<!-- PROJECT CARDS -->\n)(.*?)(\n\n</div>)"
+if re.search(projects_pattern, readme, re.DOTALL):
+    readme = re.sub(projects_pattern, r"\1" + cards_html + r"\3", readme, flags=re.DOTALL)
+
+# Update dynamic stats block
 stats_block = f"""<!-- DYNAMIC_STATS:DO_NOT_EDIT -->
 <div align="center">
 
@@ -74,15 +70,6 @@ if "<!-- DYNAMIC_STATS:DO_NOT_EDIT -->" in readme:
         readme,
         flags=re.DOTALL,
     )
-else:
-    # Append before the final footer
-    if "<i>⚡ Updated automatically" in readme:
-        readme = readme.replace(
-            "<i>⚡ Updated automatically by GitHub Actions</i>",
-            stats_block + "\n\n<i>⚡ Updated automatically by GitHub Actions</i>",
-        )
-    else:
-        readme += "\n\n" + stats_block
 
 with open(readme_path, "w") as f:
     f.write(readme)

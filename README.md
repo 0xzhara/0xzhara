@@ -1,6 +1,6 @@
 <div align="center">
 
-<!-- HEADER -->
+<!-- HEADER with wave animation -->
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:1a1b26,100:7aa2f7&height=180&section=header&text=0xzhara&fontSize=80&fontColor=7aa2f7&fontAlignY=35&desc=Web3%20%7C%20Crypto%20%7C%20Builder&descSize=18&descAlignY=55&animation=fadeIn"/>
 
 <!-- TYPING SVG -->
@@ -8,10 +8,19 @@
 
 <br/>
 
-<!-- STATS CARDS -->
+<!-- INTRO BADGES -->
+<img src="https://img.shields.io/badge/⚡-Fun+Fact:...-7aa2f7?style=flat&labelColor=0d1117&color=7aa2f7" alt="fun-fact"/>
+<br/>
+<sub>🧠 I automate everything — from crypto tracking to GitHub dashboards</sub>
+<br/>
+<sub>🔥 Currently deep into Web3, DeFi protocols, and on-chain analytics</sub>
+
+<br/><br/>
+
+<!-- STATS CARDS SIDE BY SIDE -->
 <img src="https://github-readme-stats.vercel.app/api?username=0xzhara&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=7aa2f7&icon_color=bb9af7&text_color=c0caf5&ring_color=7aa2f7&include_all_commits=true&count_private=true" height="170"/>
 
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=0xzhara&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=7aa2f7&text_color=c0caf5" height="170"/>
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=0xzhara&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=7aa2f7&text_color=c0caf5&langs_count=8" height="170"/>
 
 <br/>
 
@@ -26,7 +35,7 @@
 
 <div align="center">
 
-<img src="https://github-profile-trophy.vercel.app/?username=0xzhara&theme=tokyonight&no-frame=true&margin-w=8&margin-h=8&column=7" width="100%"/>
+<img src="https://github-profile-trophy.vercel.app/?username=0xzhara&theme=radical&no-frame=true&margin-w=8&margin-h=8&column=7" width="100%"/>
 
 </div>
 
@@ -52,6 +61,28 @@
 
 ---
 
+## 🎯 Random Dev Quote
+
+<div align="center">
+
+[![Readme Quotes](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight)](https://github.com/piyushsuthar/github-readme-quotes)
+
+</div>
+
+---
+
+## 🕐 WakaTime — Weekly Coding Activity
+
+<!--START_SECTION:waka-->
+```text
+🕐 This Week I Spent My Time On:
+⌚ Total: 0 hrs
+🔥 I'll update this once WakaTime is connected
+```
+<!--END_SECTION:waka-->
+
+---
+
 ## 🚀 Tech Stack
 
 <div align="center">
@@ -69,6 +100,7 @@
 
 ![Ethereum](https://img.shields.io/badge/Ethereum-3C3C3D?style=for-the-badge&logo=ethereum&logoColor=white)
 ![Web3](https://img.shields.io/badge/Web3-F16822?style=for-the-badge&logo=web3.js&logoColor=white)
+![Hardhat](https://img.shields.io/badge/Hardhat-FFDB1E?style=for-the-badge&logo=hardhat&logoColor=black)
 
 </div>
 
@@ -78,10 +110,13 @@
 
 <div align="center">
 
-| Project | Description | Stars |
-|---------|-------------|-------|
-| [🔥 Auto-Crypto-Prices](https://github.com/0xzhara/Auto-Crypto-Prices-) | Auto crypto price tracker | ⭐ |
-| [📜 bash-nobi.sh](https://github.com/0xzhara/bash-nobi.sh) | Bash automation scripts | ⭐ |
+<!-- PROJECT CARDS -->
+<a href="https://github.com/0xzhara/Auto-Crypto-Prices-">
+  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=0xzhara&repo=Auto-Crypto-Prices-&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=7aa2f7&icon_color=bb9af7&text_color=c0caf5" />
+</a>
+<a href="https://github.com/0xzhara/bash-nobi.sh">
+  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=0xzhara&repo=bash-nobi.sh&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=7aa2f7&icon_color=bb9af7&text_color=c0caf5" />
+</a>
 
 </div>
 
@@ -94,6 +129,16 @@
 [![Telegram](https://img.shields.io/badge/Telegram-26A5E4?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/airdropnobi)
 [![Twitter](https://img.shields.io/badge/Twitter-000000?style=for-the-badge&logo=x&logoColor=white)](https://twitter.com/0xzhara)
 [![Website](https://img.shields.io/badge/Website-0xzhara-blue?style=for-the-badge)](https://t.me/airdropnobi)
+
+</div>
+
+---
+
+## 📈 GitHub Metrics
+
+<div align="center">
+
+<img src="https://metrics.lecoq.io/0xzhara?template=classic&config.timezone=Asia%2FJakarta" width="100%" alt="GitHub Metrics"/>
 
 </div>
 
@@ -114,6 +159,18 @@
 ![GitHub followers](https://img.shields.io/github/followers/0xzhara?style=social)
 ![GitHub stars](https://img.shields.io/github/stars/0xzhara?style=social)
 
+<img src="https://raw.githubusercontent.com/0xzhara/0xzhara/output/github-contribution-grid-snake-dark.svg" width="100%" alt="snake"/>
+
 <i>⚡ Updated automatically by GitHub Actions</i>
 
 </div>
+
+<!-- DYNAMIC_STATS:DO_NOT_EDIT -->
+<div align="center">
+
+📊 **Followers:** 12 &nbsp;|&nbsp; **Following:** 9 &nbsp;|&nbsp; **Repos:** 14 &nbsp;|&nbsp; **Stars:** 8
+
+<i>Last updated: 2026-06-04</i>
+
+</div>
+<!-- /DYNAMIC_STATS -->
