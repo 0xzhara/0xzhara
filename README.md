@@ -8,17 +8,6 @@
 
 <br/>
 
-<!-- ABOUT ME BADGES -->
-<img src="https://img.shields.io/badge/🧠-Fun+Fact:-7aa2f7?style=flat&labelColor=0d1117&color=7aa2f7" alt="fun-fact"/>
-<br/>
-<sub>🔥 I automate everything — from crypto tracking to GitHub dashboards</sub>
-<br/>
-<sub>⚡ Currently deep into Web3, DeFi protocols, and on-chain analytics</sub>
-<br/>
-<sub>🎯 Building tools that make crypto easier for everyone</sub>
-
-<br/><br/>
-
 <!-- STATS CARDS SIDE BY SIDE -->
 <img src="https://github-readme-stats.vercel.app/api?username=0xzhara&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=7aa2f7&icon_color=bb9af7&text_color=c0caf5&ring_color=7aa2f7&include_all_commits=true&count_private=true" height="170"/>
 
@@ -55,8 +44,6 @@
 
 ---
 
-## 📊 Contribution Graph
-
 <div align="center">
 
 [![GitHub Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=0xzhara&bg_color=0d1117&color=7aa2f7&line=bb9af7&point=c0caf5&area=true&area_color=7aa2f7&hide_border=true)](https://github.com/ashutosh00710/github-readme-activity-graph)
@@ -74,8 +61,6 @@
 </div>
 
 ---
-
-## 🎯 Random Dev Quote
 
 <div align="center">
 
@@ -96,8 +81,6 @@
 <!--END_SECTION:waka-->
 
 ---
-
-## 🚀 Tech Stack
 
 <div align="center">
 
@@ -120,22 +103,6 @@
 
 ---
 
-## 📌 Featured Projects
-
-<div align="center">
-
-<!-- PROJECT CARDS -->
-<a href="https://github.com/0xzhara/Auto-Crypto-Prices-">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=0xzhara&repo=Auto-Crypto-Prices-&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=7aa2f7&icon_color=bb9af7&text_color=c0caf5" />
-</a>
-<a href="https://github.com/0xzhara/bash-nobi.sh">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=0xzhara&repo=bash-nobi.sh&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=7aa2f7&icon_color=bb9af7&text_color=c0caf5" />
-</a>
-
-</div>
-
----
-
 ## 🌐 Connect with Me
 
 <div align="center">
@@ -143,16 +110,6 @@
 [![Telegram](https://img.shields.io/badge/Telegram-26A5E4?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/airdropnobi)
 [![Twitter](https://img.shields.io/badge/Twitter-000000?style=for-the-badge&logo=x&logoColor=white)](https://twitter.com/0xzhara)
 [![Website](https://img.shields.io/badge/Website-0xzhara-blue?style=for-the-badge)](https://t.me/airdropnobi)
-
-</div>
-
----
-
-## 📈 GitHub Metrics
-
-<div align="center">
-
-<img src="https://metrics.lecoq.io/0xzhara?template=classic&config.timezone=Asia%2FJakarta" width="100%" alt="GitHub Metrics"/>
 
 </div>
 
